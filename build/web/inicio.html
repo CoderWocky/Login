@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>Inicio de sesión</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      label {
+        display: inline-block;
+        width: 10%;
+      }
+    </style>
+  </head>
+  <body><center>
+    <form action="autorizar.jsp" method="post">
+      <label for="usuario">Usuario</label>
+      <input type="text" name="usuario" size="30" maxlength="30" required autofocus/>
+      <br/>
+      <label for="password">Password</label>
+      <input type="password" name="password" size="30" maxlength="15" required/>
+      <br/>
+      <input type="submit" value="Enviar"/>
+    </form>
+  </center></body>
+</html>
+ 
